@@ -1,1 +1,1 @@
-https://nichitaa.github.io/darqube/bookmarks
+https://nichitaa.github.io/darqube/

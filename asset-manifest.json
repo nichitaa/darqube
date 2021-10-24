@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/darqube/static/css/main.b5b351b4.chunk.css",
+    "main.js": "/darqube/static/js/main.fac92020.chunk.js",
+    "main.js.map": "/darqube/static/js/main.fac92020.chunk.js.map",
+    "runtime-main.js": "/darqube/static/js/runtime-main.c25ab81d.js",
+    "runtime-main.js.map": "/darqube/static/js/runtime-main.c25ab81d.js.map",
+    "static/css/2.a95be28f.chunk.css": "/darqube/static/css/2.a95be28f.chunk.css",
+    "static/js/2.de216f79.chunk.js": "/darqube/static/js/2.de216f79.chunk.js",
+    "static/js/2.de216f79.chunk.js.map": "/darqube/static/js/2.de216f79.chunk.js.map",
+    "static/js/3.bde8272a.chunk.js": "/darqube/static/js/3.bde8272a.chunk.js",
+    "static/js/3.bde8272a.chunk.js.map": "/darqube/static/js/3.bde8272a.chunk.js.map",
+    "static/js/4.c68e5f5c.chunk.js": "/darqube/static/js/4.c68e5f5c.chunk.js",
+    "static/js/4.c68e5f5c.chunk.js.map": "/darqube/static/js/4.c68e5f5c.chunk.js.map",
+    "index.html": "/darqube/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/darqube/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.b5b351b4.chunk.css.map": "/darqube/static/css/main.b5b351b4.chunk.css.map",
+    "static/js/2.de216f79.chunk.js.LICENSE.txt": "/darqube/static/js/2.de216f79.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c25ab81d.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.de216f79.chunk.js",
+    "static/css/main.b5b351b4.chunk.css",
+    "static/js/main.fac92020.chunk.js"
+  ]
+}

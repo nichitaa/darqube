@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {ApplicationState} from './store/createRootReducer';
+import {ConnectedRouter} from 'connected-react-router';
+import AppLayout from './layout/AppLayout';
+import {Provider} from 'react-redux';
+import {History} from 'history';
+import {Store} from 'redux';
+import Routes from './routes/routes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+interface MainProps {
+    store: Store<ApplicationState>;
+    history: History;
 }
+
+const App: React.FC<MainProps> = ({store, history}) => (
+    <Provider store={store}>
+        <ConnectedRouter history={history}>
+            <AppLayout>
+                <Routes/>
+            </AppLayout>
+        </ConnectedRouter>
+    </Provider>
+);
+
 
 export default App;
